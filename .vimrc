@@ -15,6 +15,9 @@ set colorcolumn=81
 set expandtab
 set tabstop=4
 
+" inverse tab on shift-tab
+inoremap <S-Tab> <C-d>
+
 " press j and k at the same time to escape
 imap jk <Esc>
 imap kj <Esc>
